@@ -1,0 +1,26 @@
+{
+    "manifest_version": 2,
+    "name": "Jira Issue Finder",
+    "version": "0.1",
+    "browser_specific_settings": {
+        "gecko": {
+          "id": "jira.issue.finder@mboskamp",
+          "strict_min_version": "42.0"
+        }
+      },
+    "permissions": [
+        "storage"
+    ],
+    "background": {
+        "scripts": [
+            "browser-polyfill.js",
+            "background.js"
+        ]
+    },
+    "omnibox": {
+        "keyword": "jira"
+    },
+    "options_ui": {
+        "page": "settings.html"
+    }
+}
