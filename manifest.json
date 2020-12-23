@@ -5,7 +5,7 @@
     "browser_specific_settings": {
         "gecko": {
           "id": "jira.issue.finder@mboskamp",
-          "strict_min_version": "42.0"
+          "strict_min_version": "57.0"
         }
       },
     "permissions": [
@@ -13,7 +13,7 @@
     ],
     "background": {
         "scripts": [
-            "browser-polyfill.js",
+            "browser-polyfill.min.js",
             "background.js"
         ]
     },
